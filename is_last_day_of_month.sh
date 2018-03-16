@@ -1,7 +1,8 @@
 #!/bin/bash
  
 TODAY=`/bin/date +%d`
-TOMORROW=`/bin/date +%d -d "1 day"`
+#TOMORROW=`/bin/date +%d -d "1 day"`
+TOMORROW=`/bin/date +%d -d "2018/03/16"`
  
 if [ $TOMORROW -lt $TODAY ]; then
     echo "Last day of the month. Running jobs."
