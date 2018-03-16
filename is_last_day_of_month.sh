@@ -2,7 +2,7 @@
  
 TODAY=`/bin/date +%d`
 #TOMORROW=`/bin/date +%d -d "1 day"`
-TOMORROW=`/bin/date +%d -d "2018/03/16"`
+TOMORROW=`/bin/date +%d -d "-1 day"`
 
 echo "TODAY=$TODAY"
 echo "TOMORROW=$TOMORROW"
